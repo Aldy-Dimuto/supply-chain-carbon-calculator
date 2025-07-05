@@ -6,6 +6,7 @@ const step = ref(1)
 const maxStep = 5
 
 // Form state
+//
 const product = ref({ type: '', weight: '', quantity: '' })
 const raw = ref({ country: '', material: '' })
 const manufacturing = ref({ location: '', energy: '', method: '' })
